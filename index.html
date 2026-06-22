@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iqra Restaurant Gallery</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+    color:#2e7d32;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    width:260px;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid #4caf50;
+}
+
+.card h2{
+    margin-top:15px;
+    color:#2e7d32;
+    font-size:22px;
+}
+
+.card p{
+    margin-top:10px;
+    color:#555;
+    line-height:1.5;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Iqra Restaurant - Responsive Food Gallery</h1>
+<div>
+    <h3>About Responsive and meta tag</h3>
+    <audio src="iqra voice.mp3" controls autoplay></audio>
+    
+</div>
+
+<div class="gallery">
+
+    <div class="card">
+        <img src="images/bariis.jpg" alt="">
+        <h2>Bariis & Hilib</h2>
+        <p>Traditional Somali rice served with delicious grilled meat.</p>
+    </div>
+
+    <div class="card">
+        <img src="images/pizza.jpg" alt="">
+        <h2>Pizza Special</h2>
+        <p>Freshly baked pizza with premium toppings and cheese.</p>
+    </div>
+
+    <div class="card">
+        <img src="images/burger.jpg" alt="">
+        <h2>Burger Deluxe</h2>
+        <p>Juicy beef burger served with crispy fries.</p>
+    </div>
+
+    <div class="card">
+        <img src="images/juices.jpg" alt="">
+        <h2>Fresh Juice</h2>
+        <p>Natural fruit juices prepared daily for our guests.</p>
+    </div>
+
+    <div class="card">
+        <img src="images/coffee.jpg" alt="">
+        <h2>Quality Coffee</h2>
+        <p>Enjoy our rich and aromatic coffee made from selected beans.</p>
+    </div>
+
+    <div class="card">
+        <img src="images/deserts.jpg" alt="">
+        <h2>Desserts</h2>
+        <p>Sweet cakes and desserts perfect after every meal.</p>
+    </div>
+
+    <div class="card">
+        <img src="images/chefs.jpg" alt="">
+        <h2>Professional Chefs</h2>
+        <p>Our experienced chefs prepare every meal with skill and passion.</p>
+    </div>
+
+    <div class="card">
+        <img src="images/restaurent.jpg" alt="">
+        <h2>Modern Dining Area</h2>
+        <p>Comfortable and elegant space for families and friends.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
